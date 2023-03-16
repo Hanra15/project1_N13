@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N13 | Progate Project</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-<!-- header -->
+    <!-- header -->
     <header>
       <div class="container">
         <div class="header-left">
-          <p class="logo">Kelompok N13</p> 
+          <p class="logo">Kelompok N13</p>
         </div>
         <div class="pencarian">
-          <input type="text" placeholder="Temukan Film...">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Temukan Film..." />
         </div>
-        <span class="fa fa-bars menu-icon"></span>
+        <div class="mobile-nav">
+          <i class="fa fa-bars menu-icon"></i>
+        </div>
         <div class="header-right">
-          <a href="#">Favorit</a>
+          <a href="#favorit">Favorit</a>
           <a href="#">Genre</a>
-          <a href="#">Daftar</a>
+          <a href="#daftar">Daftar</a>
           <a href="#" class="login">Log in</a>
         </div>
       </div>
     </header>
-<!-- hero -->
-     <div class="top-wrapper">
+    <!-- hero -->
+    <div class="top-wrapper">
       <div class="container">
         <h1>STREAMING FILM</h1>
         <h1>TONTON FILM FAVORITMU DISINI</h1>
@@ -37,119 +43,188 @@
         <div class="btn-wrapper">
           <a href="#" class="btn signup">Daftar dengan Email</a>
           <p>atau</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+          <a href="#" class="btn facebook"
+            ><span class="fa fa-facebook"></span>Daftar dengan Facebook</a
+          >
+          <a href="#" class="btn twitter"
+            ><span class="fa fa-twitter"></span>Daftar dengan Twitter</a
+          >
         </div>
       </div>
     </div>
+    <marquee behavior="" direction="" class="teks-berjalan">
+      Selamat Datang di Website Streaming N13
+    </marquee>
 
-<!-- body -->
+    <!-- body -->
     <div class="lesson-wrapper">
       <div class="container">
         <div class="heading">
           <h2>Film Pilihan Untuk Anda</h2>
         </div>
-        <div class="container-2">
-        <div class="card">
-          <div class="head-card">
-         <img src="movie-1.jpg" alt="">
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-1.jpg" width="200px" height="260px" />
+              <p>Jumanji</p>
+            </div>
           </div>
-          <div class="body-card">
-         <h1>Jumanji Welcome The Jungle</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
-         <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-2.jpg" width="200px" height="260px" />
+              <p>Hitman & Bodyguard</p>
+            </div>
           </div>
-     </div>
-     <div class="card">
-        <div class="head-card">
-            <img src="movie-2.jpg" alt="">
-        </div>
-        <div class="body-card">
-       <h1>Hitman & Bodyguard 2</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
-       <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-        </div>
-     </div>  
-     <div class="card">
-        <div class="head-card">
-       <img src="movie-3.jpg" alt="">
-        </div>
-        <div class="body-card">
-       <h1>Shang-Chi</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
-       <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-         </div>
-     </div>  
-     <div class="card">
-       <div class="head-card">
-          <img src="movie-4.jpg" alt="">
-        </div>
-        <div class="body-card">
-           <h1>Eternals</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
-           <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-3.jpg" width="200px" height="260px" />
+              <p>Shang-chi</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-4.jpg" width="200px" height="260px" />
+              <p>Eternals</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-5.jpg" width="200px" height="260px" />
+              <p>Spectre</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-6.jpg" width="200px" height="260px" />
+              <p>Money Heist</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-7.jpg" width="200px" height="260px" />
+              <p>Spiderman</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-8.jpg" width="200px" height="260px" />
+              <p>Loki</p>
+            </div>
+          </div>
+          <div class="clear"></div>
         </div>
       </div>
-      <div class="card">
-        <div class="head-card">
-           <img src="movie-5.jpg" alt="">
-         </div>
-         <div class="body-card">
-            <h1>Spectre</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
-            <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-         </div>
-       </div>
-       <div class="card">
-        <div class="head-card">
-           <img src="movie-8.jpg" alt="">
-         </div>
-         <div class="body-card">
-            <h1>Loki</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
-            <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-         </div>
-       </div>
     </div>
+    <div class="lesson-wrapper" id="favorit">
+      <div class="container">
+        <div class="heading">
+          <h2>Film Favorit</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-6.jpg" width="200px" height="260px" />
+              <p>
+                Favorit #1 <br />
+                Money Heist
+              </p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-7.jpg" width="200px" height="260px" />
+              <p>
+                Favorite #2 <br />
+                Spiderman
+              </p>
+            </div>
+          </div>
+
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-3.jpg" width="200px" height="260px" />
+              <p>
+                Favorit #3 <br />
+                Shang-chi
+              </p>
+            </div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/movie-4.jpg" width="200px" height="260px" />
+              <p>
+                Favorit #4 <br />
+                Eternals
+              </p>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+      </div>
     </div>
-    <div class="message-wrapper">
+    <div class="message-wrapper" id="daftar">
       <div class="container">
         <div class="heading">
           <h2>LANGGANAN SEGERA</h2>
+        </div>
+        <div class="heading">
           <h3>Gunakan Kode Promo N13CLUB untuk dapatkan promonya</h3>
         </div>
         <span class="btn message">Klaim Promo</span>
       </div>
     </div>
-    </div>
-      <!-- subcribe -->
+    <!-- subcribe -->
     <section class="sub" id="sub">
       <h3>Subscribe to our newsletter for updates</h3>
       <form action="#">
-        <input type="email" name="email" id="email-sub" class="email-sub" placeholder="email" required 
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          placeholder="email"
+          required
         />
-        <input type="submit" value="Subscribe" id="submit-btn" class="submit-btn"
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
         />
       </form>
-</section>
+    </section>
 
     <!-- footer -->
     <footer>
       <div class="footer-content">
-          <h3>About Us</h3>
-          <p><i>Site N13</i> adalah projek modul Intro to Frontend Development FGA 2023 dalam rangka untuk mempraktikkan langsung pengertian dasar-dasar HTML & CSS berdasarkan materi dalam Progate</p>
-          <ul class="socials">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-          </ul>
+        <h3>About Us</h3>
+        <p>
+          <i>Site N13</i> adalah projek modul Intro to Frontend Development FGA
+          2023 dalam rangka untuk mempraktikkan langsung pengertian dasar-dasar
+          HTML & CSS berdasarkan materi dalam Progate
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </li>
+        </ul>
       </div>
       <div class="footer-bottom">
-          <p>copyright &copy;2023</p>
+        <p>copyright &copy;2023</p>
       </div>
-  </footer>
-
+    </footer>
   </body>
 </html>

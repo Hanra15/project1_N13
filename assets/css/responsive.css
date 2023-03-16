@@ -1,3 +1,9 @@
+@media (min-width: 1000px){
+  .mobile-nav{
+    display: none;
+    opacity: 0;
+  }
+}
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .lesson {
@@ -12,6 +18,7 @@
   .heading h2 {
     font-size: 20px;
   }
+  
 }
 
 /* Untuk Smartphone */

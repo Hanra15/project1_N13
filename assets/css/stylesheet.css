@@ -33,12 +33,16 @@ a {
 }
 
 .top-wrapper {
-  padding: 130px 0 80px 0;
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/71/805/151/movie-cap-pikachu-poster-pokemon-hd-wallpaper-preview.jpg);
+  padding: 130px 0 80px 0; 
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/71/805/151/movie-cap-pikachu-poster-pokemon-hd-wallpaper-preview.jpg) ;
   background-size: cover;
   color: rgba(255, 255, 255, 0.925);
   text-align: center;
+  
+  
 }
+
+
 
 .top-wrapper h1 {
   font-family: Arial;
@@ -117,8 +121,15 @@ header {
 .pencarian {
   float: left;
   padding-top: 18px;
+  color: white;
 }
-
+.pencarian input{
+  padding: 5px;
+  border-radius: 5px;
+}
+.teks-berjalan{
+  padding: 10px;
+}
 .header-left {
   float: left;
 }
@@ -162,16 +173,23 @@ header {
 
 .heading {
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
+  margin-bottom: 35px;
   color: #5f5d60;
+  display: flex;
+  justify-content: center;
 }
 
 .heading h2 {
   font-weight: normal;
+  border-bottom: 3px solid rgba(34, 49, 52, 0.9);
+  width: 25%;
 }
 
-.heading h3 {
-  font-weight: normal;
+.lesson {
+  float: left;
+  width: 25%;
+  padding-bottom: 15px;
 }
 
 .card {
@@ -214,8 +232,24 @@ header {
 .body-card svg {
   width: 31px;
   position: absolute;
-  bottom: 7px;
-  right: 20px;
+  top: 44%;
+  width: 100%;
+  color: white;
+  opacity: 0;
+  
+}
+.lesson-icon p:hover{
+opacity: 1;
+text-transform: uppercase;
+display: block;
+}
+
+.lesson:hover img{
+  border-radius: 10px;
+  filter: brightness(50%);
+  transition: 0.5s;
+  transform: scale(1.1);
+  
 }
 
 
